@@ -835,6 +835,7 @@ header{
 .p53{
     position: relative;
     height: 96px;
+    width: 243px;
     left: 6.71%;
     right: 11.74%;
     /* top: 229.75px; */
@@ -852,6 +853,7 @@ header{
 }
 .p55{
     position: relative;
+    width: 232px;
     height: 96px;
     left: 6.71%;
     right: 15.44%;
@@ -869,6 +871,7 @@ header{
 }
 .p57{
     position: relative;
+    width: 246px;
     height: 144px;
     left: 6.71%;
     right: 10.74%;
@@ -886,6 +889,7 @@ header{
 }
 .p59{
     position: relative;
+    width: 250px;
     height: 144px;
     left: 6.71%;
     right: 9.4%;
