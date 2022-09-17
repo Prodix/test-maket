@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Document</title>
     <style>
         @font-face {
@@ -11,12 +11,15 @@
             src: url(fonts/Roboto.ttf);
         }
     </style>
+    
+    
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="adaptive.css">
 </head>
 <body>
     <header>
         <div class="header">
-            <img src="images\logo.svg" alt="logo" id="logo">
+            <a href="/"><img src="images\logo.svg" alt="logo" id="logo"></a>
             <ul class="ul1">
                 <li class="li1"><a href="#">Home</a></li>
                 <li class="li1"><a href="#">About</a></li>
@@ -78,9 +81,9 @@
                 <p class="p413">Flexbox is a display setting found in the styles tab under</p>
                 <p class="p414">Layout > Display Settings</p>
             </div>
-            <div>
+            <div id="steps">
                 <ul class="ul2">
-                    <li class="li2">
+                    <li class="li2" id="li21">
                         <div>
                             <p class="p41">Step 1</p>
                             <img class="img13" src="images\mouse.svg" alt="">

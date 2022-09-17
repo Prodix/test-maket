@@ -1,6 +1,66 @@
+/* Document */
+
 html, body{
+    height: 100%;
+}
+body{
+    min-width: 320;
     margin: 0;
+    position: relative;
     overflow-x: hidden;
+    opacity: 1;
+}
+a:-webkit-any-link{
+    color: #FFFFFF;
+    text-decoration-line: none;
+}
+p{
+    margin: 0;
+}
+.right{
+    position: relative;
+    height: 22px;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+
+    background: #3B79C3;
+    border-radius: 2px;
+
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+
+    color: #FFFFFF;
+}
+
+
+/* Header */
+header{
+    position: relative;
+    height: 70px;
+
+    background: #6B6B6B;
+}
+.header{
+    position: absolute;
+    width: 1152px;
+    height: 70px;
+    left: calc(50% - 1152px/2);
+    top: 0px;
+
+}
+#logo{
+    position: relative;
+    height: 20px;
+    left: 0%;
+    right: 91.58%;
+    top: calc(50% - 20px/2);
+
+    border-radius: 0px;
 }
 .ul1{
     list-style: none;
@@ -27,13 +87,28 @@ html, body{
 
     color: #FFFFFF;
 }
-a:-webkit-any-link{
-    color: #FFFFFF;
-    text-decoration-line: none;
+
+/* Main */
+
+.block1{
+    position: relative;
+    height: 500px;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+
+    background: #EBEBEB;
+    border-radius: 0px;
 }
-p{
-    margin: 0;
+/* in block 1 */
+.block11{
+    position: absolute;
+    width: 1152px;
+    height: 365.77px;
+    left: calc(50% - 1152px/2);
+    top: calc(50% - 365.77px/2 - 0.01px);
 }
+/* in block 1.1 */
 .p1{
     position: absolute;
     height: 45px;
@@ -65,14 +140,40 @@ p{
 
     color: #333333;
 }
-#logo{
+.b1{
     position: absolute;
-    height: 20px;
+    height: 50px;
+    width: 357px;
     left: 0%;
-    right: 91.58%;
-    top: calc(50% - 20px/2);
+    right: 38.02%;
+    top: calc(50% - 50px/2 + 78.02px);
 
-    border-radius: 0px;
+    background: #FFFFFF;
+
+    border-radius: 5px;
+    border-color: #FFFFFF;
+    border-style: hidden;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;    
+}
+.b1:hover{
+    background: #807f7f;
+}
+.b1:active{
+    background: #3B79C3;
+}
+/* in block 1.2 */
+.block12{
+    position: absolute;
+    height: 365.77px;
+    width: 576px;
+    left: 50%;
+    right: 0%;
+    top: calc(50% - 365.77px/2);
 }
 .img1{
     position: absolute;
@@ -84,16 +185,6 @@ p{
     background: url(.png);
     filter: drop-shadow(0px 20px 50px rgba(0, 0, 0, 0.2));
     border-radius: 3px;
-}
-.b1{
-    position: relative;
-    height: 50px;
-    left: 0%;
-    right: 0%;
-    top: 81%;
-
-    background: #FFFFFF;
-    border-radius: 5px;
 }
 .p13{
     position: absolute;
@@ -112,59 +203,9 @@ p{
 
     color: rgba(0, 0, 0, 0.5);
 }
-header{
-    position: static;
-    height: 70px;
 
-    background: #6B6B6B;
-}
-.header{
-    position: absolute;
-    width: 1152px;
-    height: 70px;
-    left: calc(50% - 1152px/2);
-    top: 0px;
+/* in block 2 */
 
-}
-.block1{
-    position: static;
-    height: 500px;
-    left: 0%;
-    right: 0%;
-    top: 0px;
-
-    background: #EBEBEB;
-    border-radius: 0px;
-}
-.block11{
-    position: relative;
-    width: 1152px;
-    height: 365.77px;
-    left: calc(50% - 1152px/2);
-    top: calc(50% - 365.77px/2 - 0.01px);
-}
-.block12{
-    position: absolute;
-    height: 365.77px;
-    width: 576;
-    left: 50%;
-    right: 0%;
-    top: calc(50% - 365.77px/2);
-}
-.img2{
-    position: relative;
-    left: 0.87%;
-    right: 95.57%;
-    top: calc(50% - 48px/2);
-
-    background: url(.png);
-    border-radius: 0px;
-}
-.img3,.img4,.img5,.img6,.img7,.img8,.img9{
-    position: relative;
-    top: calc(50% - 48px/2);
-    margin-left: 67px;
-}
 .block2{
     position: static;
     height: 152px;
@@ -177,12 +218,27 @@ header{
 }
 .block21{
     position: relative;
-    width: 1161px;
+    width: 1162px;
     height: 72px;
-    left: calc(50% - 1161px/2);
     top: 40px;
+    left: calc(50% - 1152px/2);
 
 }
+.img2{
+    position: relative;
+    left: 0.87%;
+    right: 95.57%;
+    top: calc(50% - 48px/2);
+
+}
+.img3,.img4,.img5,.img6,.img7,.img8,.img9{
+    position: relative;
+    top: calc(50% - 48px/2);
+    margin-left: 67px;
+}
+
+/* block 3 */
+
 .block3{
     position: static;
     height: 660px;
@@ -193,20 +249,13 @@ header{
     background: #ffffff;
     border-radius: 0px;
 }
+/* in block 3.1 */
 .block31{
     position: relative;
     width: 1152px;
     height: 311px;
     left: calc(50% - 1152px/2);
     top: calc(50% - 311px/2 - 124.5px);
-}
-.block32{
-    position: relative;
-    width: 1152px;
-    height: 249px;
-    left: calc(50% - 1152px/2);
-    top: 50px;
-    
 }
 .block311{
     position: absolute;
@@ -215,27 +264,6 @@ header{
     right: 50%;
     top: 0px;
     
-}
-.block312{
-    position: absolute;
-    height: 311px;
-    left: 50%;
-    right: 0%;
-    top: 0px;
-}
-.block321{
-    position: absolute;
-    height: 249px;
-    left: 0%;
-    right: 50%;
-    top: 0px;
-}
-.block322{
-    position: absolute;
-    height: 249px;
-    left: 50%;
-    right: 0%;
-    top: 0px;    
 }
 .p31{
     position: absolute;
@@ -267,6 +295,13 @@ header{
 
     color: #000000;
 }
+.block312{
+    position: absolute;
+    height: 311px;
+    left: 50%;
+    right: 0%;
+    top: 0px;
+}
 .img10{
     position: absolute;
     width: 240px;
@@ -290,12 +325,35 @@ header{
     font-weight: 400;
     font-size: 12px;
     line-height: 21px;
-    /* identical to box height, or 175% */
 
     text-align: center;
 
     color: #777777;
 }
+/* in block 3.2 */
+.block32{
+    position: relative;
+    width: 1152px;
+    height: 249px;
+    left: calc(50% - 1152px/2);
+    top: 50px;
+    
+}
+.block321{
+    position: absolute;
+    height: 249px;
+    left: 0%;
+    right: 50%;
+    top: 0px;
+}
+.block322{
+    position: absolute;
+    height: 249px;
+    left: 50%;
+    right: 0%;
+    top: 0px;    
+}
+
 .img11{
     position: absolute;
     width: 240px;
@@ -319,8 +377,6 @@ header{
     font-weight: 400;
     font-size: 12px;
     line-height: 21px;
-    /* identical to box height, or 175% */
-
 
     color: #777777;
 }
@@ -336,8 +392,6 @@ header{
     font-weight: 400;
     font-size: 31px;
     line-height: 36px;
-    /* identical to box height, or 116% */
-
 
     color: #000000;
 }
@@ -353,48 +407,12 @@ header{
     font-weight: 400;
     font-size: 15px;
     line-height: 24px;
-    /* or 160% */
-
 
     color: #000000;
 }
-.img12{
-    position: absolute;
-    height: 24px;
-    left: 10.42%;
-    right: 10.42%;
-    top: -1px;
 
-    font-family: 'Arial';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 11px;
-    line-height: 24px;
-    /* identical to box height, or 218% */
+/* block 4 */
 
-
-    color: #FFFFFF;
-
-}
-.right{
-    position: relative;
-    height: 22px;
-    left: 0%;
-    right: 0%;
-    top: 0px;
-
-    background: #3B79C3;
-    border-radius: 2px;
-
-
-    font-family: 'Arial';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 11px;
-    line-height: 24px;
-
-    color: #FFFFFF;
-}
 .block4{
     position: static;
     height: 806px;
@@ -494,12 +512,21 @@ header{
     color: #777777;
 
 }
-.ul2{
-    list-style: none;
+
+/* in other div */
+#steps{
     position: relative;
     height: 336px;
-    top: -262px;
-    left: 288px;
+    left: calc(50% - 1182px/2);
+    bottom: 33%;
+}
+.ul2{
+    list-style: none;
+    padding: 0;
+}
+#li21{
+    margin: 0;
+    margin-left: 15px;
 }
 .li2{
     vertical-align: top;
@@ -544,7 +571,6 @@ header{
     font-weight: 400;
     font-size: 18px;
     line-height: 24px;
-    /* identical to box height, or 133% */
     
     text-align: center;
     
@@ -563,7 +589,6 @@ header{
     font-weight: 400;
     font-size: 18px;
     line-height: 24px;
-    /* identical to box height, or 133% */
     
     text-align: center;
     
@@ -582,7 +607,6 @@ header{
     font-weight: 400;
     font-size: 13px;
     line-height: 20px;
-    /* or 154% */
 
     text-align: center;
 
@@ -600,7 +624,6 @@ header{
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
-    /* or 143% */
     
     text-align: center;
     
@@ -618,7 +641,6 @@ header{
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
-    /* or 143% */
 
     text-align: center;
 
@@ -646,7 +668,6 @@ header{
     margin-top: 30px;
     margin-bottom: 38px;
 
-    background: url(.png);
     border-radius: 0px;
 }
 .img15{
@@ -658,9 +679,11 @@ header{
     margin-top: 31px;
     margin-bottom: 40px;
     
-    background: url(.png);
     border-radius: 0px;
 }
+
+/* block 5 */
+
 .block5{
     position: static;
     height: 589px;
@@ -679,21 +702,6 @@ header{
     top: 2268.25px;
 
 }
-.ul3{
-    list-style: none;
-    position: relative;
-    padding: 0;
-    width: 2000px;
-    left: -20px;
-    margin-top: 41px;
-    
-}
-.li3{
-    vertical-align: top;
-    height: 333px;
-    width: 298px;
-    display: inline-block;
-}
 .p51{
     position: relative;
     height: 36px;
@@ -710,6 +718,22 @@ header{
 
     color: #333333;
 }
+.ul3{
+    list-style: none;
+    position: relative;
+    padding: 0;
+    width: 2000px;
+    left: -20px;
+    margin-top: 41px;
+    
+}
+.li3{
+    vertical-align: top;
+    height: 333px;
+    width: 298px;
+    display: inline-block;
+}
+
 .img16{
     position: relative;
     height: 163px;
@@ -717,7 +741,6 @@ header{
     right: 16.44%;
     top: -0.25px;
 
-    background: url(.png);
     filter: drop-shadow(0px 20px 50px rgba(0, 0, 0, 0.2));
     border-radius: 3px;
 }
@@ -728,7 +751,6 @@ header{
     right: 12.08%;
     top: -0.25px;
 
-    background: url(.png);
     filter: drop-shadow(0px 20px 50px rgba(0, 0, 0, 0.2));
     border-radius: 3px;
 }
@@ -739,7 +761,6 @@ header{
     right: 11.74%;
     top: -0.25px;
     
-    background: url(.png);
     filter: drop-shadow(0px 20px 50px rgba(0, 0, 0, 0.2));
     border-radius: 3px;    
 }
@@ -750,7 +771,6 @@ header{
     right: 12.75%;
     top: -0.25px;
     
-    background: url(.png);
     filter: drop-shadow(0px 20px 50px rgba(0, 0, 0, 0.2));
     border-radius: 3px;    
 }
@@ -761,14 +781,12 @@ header{
     right: 46.31%;
     margin-top: 30px;
     margin-bottom: 13px;
-    /* top: 192.75px; */
     
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 24px;
-    /* identical to box height, or 133% */
     
     
     color: #333333;
@@ -780,14 +798,12 @@ header{
     right: 55.7%;
     margin-top: 30px;
     margin-bottom: 13px;
-    /* top: 175.75px; */
     
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 24px;
-    /* identical to box height, or 133% */
     
     
     color: #333333;
@@ -800,14 +816,12 @@ header{
     right: 42.62%;
     margin-top: 30px;
     margin-bottom: 13px;
-    /* top: 109.75px; */
     
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 24px;
-    /* identical to box height, or 133% */
     
     
     color: #333333;    
@@ -819,14 +833,12 @@ header{
     right: 75.84%;
     margin-top: 30px;
     margin-bottom: 13px;
-    /* top: 142.75px; */
     
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 24px;
-    /* identical to box height, or 133% */
     
     
     color: #333333;
@@ -838,14 +850,12 @@ header{
     width: 243px;
     left: 6.71%;
     right: 11.74%;
-    /* top: 229.75px; */
     
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
     line-height: 24px;
-    /* or 160% */
     
     
     color: #333333;
@@ -857,14 +867,12 @@ header{
     height: 96px;
     left: 6.71%;
     right: 15.44%;
-    /* top: 212.75px; */
     
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
     line-height: 24px;
-    /* or 160% */
     
     
     color: #333333;    
@@ -875,14 +883,12 @@ header{
     height: 144px;
     left: 6.71%;
     right: 10.74%;
-    /* top: 146.75px; */
     
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
     line-height: 24px;
-    /* or 160% */
     
     
     color: #333333;    
@@ -893,18 +899,18 @@ header{
     height: 144px;
     left: 6.71%;
     right: 9.4%;
-    /* top: 179.75px; */
     
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
     line-height: 24px;
-    /* or 160% */
     
     
     color: #333333;    
 }
+
+/* Footer */
 
 .footer1{
     position: static;
@@ -981,8 +987,6 @@ header{
     font-weight: 400;
     font-size: 12px;
     line-height: 20px;
-    /* identical to box height, or 167% */
-
 
     color: #777777;
 }

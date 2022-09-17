@@ -1,0 +1,60 @@
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px){
+    .last{
+        left: 0;
+    }
+    header{
+        width: 100vw;
+    }
+    .header{
+        max-width: 900px;
+        left: calc(50%-40%);
+    }
+    #logo{
+        margin-left: 150px;
+    }
+    .block11{
+        max-width: 993px;
+    }
+    .block21{
+        max-width: 993px;
+    }
+    .block31{
+        max-width: 993px;
+    }
+    .block32{
+        max-width: 993px;
+    }
+    .block41{
+        max-width: 993px;
+    }
+    .block51{
+        max-width: 993px;
+    }
+    .ul3{
+        max-width: 993px;
+    }
+    .footer11{
+        max-width: 993px;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px){
+    /*  */
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px){
+    /*  */
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px){
+    /*  */
+}
+
+/* Custom, IPhone Retina */
+@media only screen and (max-width: 320px){
+    /*  */
+}
