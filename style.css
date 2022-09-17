@@ -2,13 +2,7 @@
 
 html, body{
     height: 100%;
-}
-body{
-    min-width: 320;
     margin: 0;
-    position: relative;
-    overflow-x: hidden;
-    opacity: 1;
 }
 a:-webkit-any-link{
     color: #FFFFFF;
@@ -519,6 +513,7 @@ header{
     height: 336px;
     left: calc(50% - 1182px/2);
     bottom: 33%;
+    width: 1175px;
 }
 .ul2{
     list-style: none;
@@ -722,7 +717,7 @@ header{
     list-style: none;
     position: relative;
     padding: 0;
-    width: 2000px;
+    width: 1204px;
     left: -20px;
     margin-top: 41px;
     
@@ -977,10 +972,11 @@ header{
 }
 .last{
     position: relative;
+    width: 500px;
     height: 20px;
     left: 10%;
-    right: 57.15%;
     top: 15px;
+
 
     font-family: 'Roboto';
     font-style: normal;
