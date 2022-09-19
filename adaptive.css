@@ -2,25 +2,89 @@
 @media only screen and (max-width: 1200px){
     #steps{
         left: 0;
+        width: auto;
     }
     .last{
         left: 0;
     }
-    header{
-        width: 100vw;
-    }
     .header{
         max-width: 900px;
-        left: calc(50%-40%);
-    }
-    #logo{
-        margin-left: 150px;
+        left: calc((100% - 900px) / 2);
     }
     .block11{
+        left: calc((100% - 900px) / 2);
+        width: 794px;
         max-width: 993px;
     }
-    .block21{
+    .block12{
+        left: 50%;
+        width: 397px;
         max-width: 993px;
+    }
+    .p1{
+        width: 347.5px;
+        font-size: 27px;
+    }
+    .p12{
+        width: 397px;
+        font-size: 12px;
+    }
+    .b1{
+        width: 246px;
+        font-size: 11px;
+    }
+    .img1{
+        width: 166px;
+        height: 205px;
+        left: calc(50% - 166px/2 + 0.5px);
+        top: 89px;
+    }
+    .p13{
+        width: 222px;
+        left: calc(50% - 222px/2);
+        font-size: 9px;
+        top: 305px;
+    }
+    .img2{
+        width: calc(100vw * 0.028);
+        height: calc(100vw * 0.033);
+    }
+    .img3{
+        width: calc(100vw * 0.063);
+        height: calc(100vw * 0.032);
+    }
+    .img4{
+        width: calc(100vw * 0.023);
+        height: calc(100vw * 0.033);
+    }
+    .img5{
+        width: calc(100vw * 0.081);
+        height: calc(100vw * 0.032);
+    }
+    .img6{
+        width: calc(100vw * 0.091);
+        height: calc(100vw * 0.031);
+    }
+    .img7{
+        width: calc(100vw * 0.061);
+        height: calc(100vw * 0.027);
+    }
+    .img8{
+        width: calc(100vw * 0.031);
+        height: calc(100vw * 0.036);
+    }
+    .img9{
+        width: calc(100vw * 0.078);
+        height: calc(100vw * 0.034);
+    }
+    .img3,.img4,.img5,.img6,.img7,.img8,.img9{
+        position: relative;
+        top: calc(50% - 48px/2);
+        margin-left: calc(100vw * 0.045);
+    }
+    .block21{
+        width: calc(100vw - 107px);
+        left: calc(100vw * 0.107);
     }
     .block31{
         max-width: 993px;

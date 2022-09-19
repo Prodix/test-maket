@@ -1,8 +1,9 @@
 /* Document */
 
-html, body{
+body{
     height: 100%;
     margin: 0;
+    width: 101vw;
 }
 a:-webkit-any-link{
     color: #FFFFFF;
@@ -35,6 +36,7 @@ p{
 /* Header */
 header{
     position: relative;
+    width: 101vw;
     height: 70px;
 
     background: #6B6B6B;
@@ -61,7 +63,6 @@ header{
     position: absolute;
     height: 70px;
     width: 245px;
-    left: 78.73%;
     right: 0%;
     top: 0px;
     margin: 0;
@@ -80,6 +81,9 @@ header{
     padding-top: 25px;
 
     color: #FFFFFF;
+}
+#li1{
+    padding-left: 20px;
 }
 
 /* Main */
@@ -106,6 +110,7 @@ header{
 .p1{
     position: absolute;
     height: 45px;
+    width: 499px;
     left: 0%;
     right: 12.5%;
     top: calc(50% - 45px/2 - 62.48px);
@@ -700,6 +705,7 @@ header{
 .p51{
     position: relative;
     height: 36px;
+    width: 205px;
     left: 0%;
     right: 82.2%;
     top: calc(50% - 36px/2 - 177.75px);
@@ -773,7 +779,7 @@ header{
     position: relative;
     height: 24px;
     left: 6.71%;
-    right: 46.31%;
+    width: 138px;
     margin-top: 30px;
     margin-bottom: 13px;
     
@@ -790,7 +796,7 @@ header{
     position: relative;
     height: 24px;
     left: 6.71%;
-    right: 55.7%;
+    width: 112px;
     margin-top: 30px;
     margin-bottom: 13px;
     
@@ -808,7 +814,7 @@ header{
     position: relative;
     height: 24px;
     left: 6.71%;
-    right: 42.62%;
+    width: 150px;
     margin-top: 30px;
     margin-bottom: 13px;
     
@@ -825,7 +831,7 @@ header{
     position: relative;
     height: 24px;
     left: 6.71%;
-    right: 75.84%;
+    width: 1px;
     margin-top: 30px;
     margin-bottom: 13px;
     
@@ -938,7 +944,7 @@ header{
     list-style: none;
     position: absolute;
     height: 70px;
-    width: 245px;
+    width: auto;
     left: 78.73%;
     right: 0%;
     top: 0px;
