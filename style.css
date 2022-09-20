@@ -3,7 +3,6 @@
 body{
     height: 100%;
     margin: 0;
-    width: 101vw;
 }
 a:-webkit-any-link{
     color: #FFFFFF;
@@ -36,7 +35,6 @@ p{
 /* Header */
 header{
     position: relative;
-    width: 101vw;
     height: 70px;
 
     background: #6B6B6B;
