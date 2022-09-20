@@ -205,7 +205,7 @@ header{
 
 /* in block 2 */
 
-.block2{
+.logo-block{
     position: static;
     height: 152px;
     left: 0%;
@@ -215,7 +215,7 @@ header{
     background: #D3D3D3;
     border-radius: 0px;
 }
-.block21{
+.logos{
     position: relative;
     width: 1162px;
     height: 72px;
@@ -518,7 +518,7 @@ header{
     height: 336px;
     left: calc(50% - 1182px/2);
     bottom: 33%;
-    width: 1175px;
+    width: fit-content;
 }
 .ul2{
     list-style: none;

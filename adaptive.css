@@ -2,7 +2,6 @@
 @media only screen and (max-width: 1200px){
     #steps{
         left: 0;
-        width: auto;
     }
     .last{
         left: 0;
@@ -82,8 +81,8 @@
         top: calc(50% - 48px/2);
         margin-left: calc(100vw * 0.045);
     }
-    .block21{
-        width: calc(100vw - 107px);
+    .logos{
+        width: calc(100vw - 200px);
         left: calc(100vw * 0.107);
     }
     .block31{
